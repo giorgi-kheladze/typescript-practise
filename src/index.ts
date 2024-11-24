@@ -15,3 +15,12 @@ level = "a";
 console.log(level)
 
 //type any 
+function render(document: string){
+    console.log(document);
+}
+render("giorg")
+//arrays
+
+let array: [any, any] = [10, "giorgi"]
+let arr1 = array[0];
+console.log(arr1)
