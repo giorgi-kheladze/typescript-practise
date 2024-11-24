@@ -24,3 +24,18 @@ render("giorg")
 let array: [any, any] = [10, "giorgi"]
 let arr1 = array[0];
 console.log(arr1)
+console.log(array[0].__proto__);
+// enums
+enum Direction{
+    up = 10,
+    down = "giorgi",
+    left = "hello",
+    right = 20 
+}
+
+enum Key{
+    first = 1,
+    second = 10,
+    third,
+    fourth
+}
