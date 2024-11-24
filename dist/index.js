@@ -1,8 +1,6 @@
 "use strict";
-let age = 19;
-if (age < 50) {
-    age += 10;
-    console.log(age);
-    age += 12;
-}
+let sales = 123456789;
+let giorgi = "giorgi";
+let bool = true;
+let level;
 //# sourceMappingURL=index.js.map

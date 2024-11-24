@@ -1,6 +1,5 @@
-let age: number = 19;
-if(age < 50){
-    age += 10
-    console.log(age)
-    age += 12
-}
+// buid-in-variable-types
+let sales: number = 123_456_789;
+let giorgi: string = "giorgi";
+let bool: boolean = true;
+let level;
