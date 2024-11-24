@@ -60,3 +60,23 @@ let emploee2: {
 
 emploee2.name = "giorgi";
 //emploee2.id = 3 cannot assign becouse of readonly
+
+//we can create type aliase
+
+type Emploee = {
+    readonly id: number,
+    name: string,
+    retire?: (date: Date) => void
+}
+
+let worker:Emploee = {
+    id: 1,
+    name: "giorgi",
+    retire: (date: Date) => {
+        console.log(Date);
+    }
+} 
+
+// union types
+
+function KgToLbs(weight: number | srting){}

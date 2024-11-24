@@ -38,4 +38,11 @@ let emploee = { id: 1 };
 console.log(emploee.id);
 let emploee2 = { id: 1 };
 emploee2.name = "giorgi";
+let worker = {
+    id: 1,
+    name: "giorgi",
+    retire: (date) => {
+        console.log(Date);
+    }
+};
 //# sourceMappingURL=index.js.map
