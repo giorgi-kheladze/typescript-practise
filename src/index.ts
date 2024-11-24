@@ -39,3 +39,24 @@ enum Key{
     third,
     fourth
 }
+
+//functions
+function calculateTax(income: number){
+    //let sallary;
+    if(income < 50_000)
+        return "its good";
+    else
+        return "ouu shitt"
+}
+
+//objects
+let emploee = {id: 1}
+console.log(emploee.id)
+
+let emploee2: {
+    readonly id: number,
+    name?: string //? make it optional
+} = {id: 1}
+
+emploee2.name = "giorgi";
+//emploee2.id = 3 cannot assign becouse of readonly

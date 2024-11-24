@@ -28,4 +28,14 @@ var Key;
     Key[Key["third"] = 11] = "third";
     Key[Key["fourth"] = 12] = "fourth";
 })(Key || (Key = {}));
+function calculateTax(income) {
+    if (income < 50000)
+        return "its good";
+    else
+        return "ouu shitt";
+}
+let emploee = { id: 1 };
+console.log(emploee.id);
+let emploee2 = { id: 1 };
+emploee2.name = "giorgi";
 //# sourceMappingURL=index.js.map
